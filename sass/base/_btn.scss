@@ -1,0 +1,11 @@
+.btn {
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 2rem 3.3rem;
+    border-radius: 300px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    &:hover {
+        transition: .3s;
+    }
+}

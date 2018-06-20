@@ -1,0 +1,21 @@
+.footer {
+    // display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    text-align: center;
+    background-color: $color2;
+    font-size: 1.6rem;
+    padding: 5rem 0 3rem 0;
+    color: white;
+    &_text {
+        opacity: .8;
+        padding-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .footer {
+        display: flex;
+    }
+}

@@ -1,0 +1,37 @@
+@import 'abstract/veriables';
+@import 'abstract/uti';
+
+@import 'base/global';
+@import 'base/btn';
+
+@import 'components/nav';
+@import 'components/header';
+@import 'components/about';
+@import 'components/skills';
+@import 'components/portfolio';
+@import 'components/contact';
+@import 'components/footer';
+
+
+
+
+
+
+.icon_footer {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  stroke-width: 0;
+  margin: 1rem;
+  stroke: currentColor;
+  fill: currentColor;
+  opacity: .8;
+  cursor: pointer;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+
+
+    

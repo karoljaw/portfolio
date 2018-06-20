@@ -1,0 +1,21 @@
+.p {
+    padding: 6rem 2rem;
+}
+
+@media screen and (min-width: 600px) {
+    .p {
+        padding: 6rem 5rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .p {
+        padding: 8rem 10rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .p {
+        padding: 8rem 20rem;
+    }
+}

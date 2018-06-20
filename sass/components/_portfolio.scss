@@ -1,0 +1,120 @@
+.portfolio {
+    color: #1e272e;
+    background-color: #f7f7f7;
+    &_header {
+        text-align: center;     
+    }
+    &_heading {
+        text-transform: uppercase;     
+        padding-bottom: 1rem;
+    }
+    &_text {
+        font-size: 2rem;
+        opacity: 0.8;
+    }
+    &_title {
+        font-size: 3rem;
+        text-transform: uppercase;
+        padding-bottom: 1rem;
+        letter-spacing: 2px; 
+    }
+}
+
+.project {
+    margin: 6rem 0;
+    
+    &_row {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 3rem 0;
+        transition: .3s;
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    &_image {
+        width: 100%;
+        flex: 1;
+        transition: .3s;
+    }
+    &_description {
+        flex: 1;
+        padding-right: 5rem;
+        transition: .3s;
+        margin: 3rem 0;
+        order: 1;
+    }
+    &_title {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+    &_text {
+        font-size: 2rem;
+        opacity: 0.8;
+    }
+    &_skills {
+        font-size: 2rem;
+        padding-top: 1rem;
+    }
+    &_btn {
+        margin: 1.5rem 1rem 0 0;
+        background-color: transparent;
+        color: black;
+        font-size: 1.3rem;
+        padding: 1.5rem 3rem; 
+        border: 2px solid #FBB101;
+        &:hover {
+            background-color: #FBB101;
+            color: black;
+//             -webkit-box-shadow: 10px 5px 45px 3px rgba(251,177,1,0.45);
+// -moz-box-shadow: 10px 5px 45px 3px rgba(251,177,1,0.45);
+// box-shadow: 10px 5px 45px 3px rgba(251,177,1,0.45);
+         
+          }
+    }
+}
+
+  .in-view {
+      animation: bounce .3s ease-out;
+      animation-fill-mode: forwards;
+    
+ 
+  }
+
+.image {
+    width: 100%;
+    -webkit-box-shadow: -2px 17px 40px -8px rgba(0,0,0,0.35);
+    -moz-box-shadow: -2px 17px 40px -8px rgba(0,0,0,0.35);
+    box-shadow: -2px 17px 40px -8px rgba(0,0,0,0.35);
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(100px);
+  
+    }
+
+    80% {
+        transform: translateY(-10px);
+        opacity: .5;
+    }
+   
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .project_row {
+        flex-direction: row;
+        padding: 6rem 0;
+    }
+    .project_description {
+        order: 0;
+    }
+    .project_description--even {
+        margin-left: 9rem;
+    }
+}
+

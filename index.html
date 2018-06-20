@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h3 class="logo">Karol Jaworek
+        </h3>
+        <svg class="icon icon-menu menu">
+            <use xlink:href="sprite.svg#icon-menu"></use>
+        </svg>
+        <ul>
+            <li>
+                <a class="scroll" href="#about">o mnie</a>
+            </li>
+            <li>
+                <a class="scroll" href="#portfolio">portfolio</a>
+            </li>
+            <li>
+                <a class="scroll" href="#skills">umiejętności</a>
+            </li>
+            <li>
+                <a class="scroll" href="#contact">kontakt</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="main">
+        <header class="header p">
+            <div class="header_content">
+                <h1 class="header_title">Karol Jaworek
+                    <br> Web Developer Zobacz
+                    <span class="yellow">więcej</span>
+                </h1>
+            </div>
+        </header>
+        <section id="about" class="about p">
+            <div class="about_content">
+                <h2 class="about_heading">O mnie</h2>
+                <p class="about_text">
+                    Pewnego dnia obudziłem się z myslą że moja kariera zawodowa nie wygląda tak jak bym tego chciał. Tak więc zaczałem szukać
+                    czegoś co sprawialo by mi sadysfakcje. Próbując wielu rzeczy w końcu natrafiłem na tematykę pisania stron
+                    internetowych. Zdobywajac po kawałku umiejętnosci zaczełem rozumieć że to jest coś czemu chciałbym się
+                    poświęcić w 100%.
+                    <br>
+                    <br>Jestem osobą sumienną, pracowitą, posiadającą determinację w dążeniu do obranego celu. W moich projektach
+                    staram się pisać czytelny kod. Programowanie uczy mnie cierpliwości, dokładności, jak i logicznego myślenia.
+                    <br>
+                    <br>Szukam pierwszej pracy jako front-end developer by móc się dalej rozwijać.
+                </p>
+            </div>
+        </section>
+        <section id="skills" class="skills p">
+            <div class="skills_content">
+                <div class="skills_header">
+                    <h2 class="skills_heading">Umiejętności</h2>
+                    <p class="skills_text">Poniżej krótka lista moich umiejętności oraz technologii, z którymi jestem zaznajomiony i korzystam w
+                        czasie pracy nad projektami.</p>
+                </div>
+                <div class="skills_box">
+                    <svg class="icon icon-pencil2">
+                        <use xlink:href="sprite.svg#icon-pencil2"></use>
+                    </svg>
+                    <div class="skills_title">
+                        Design
+                    </div>
+                    <div class="skills_desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic excepturi distinctio eaque tempora est quis, quaerat dolores
+                        vero laborum perspiciatis expedita quae vel eum nesciunt ab. Quos sit fuga ad.
+                    </div>
+                </div>
+                <div class="skills_box">
+                    <svg class="icon icon-display">
+                        <use xlink:href="sprite.svg#icon-display"></use>
+                    </svg>
+                    <div class="skills_title">
+                        Front-end
+                    </div>
+                    <div class="skills_desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic excepturi distinctio eaque tempora est quis, quaerat dolores
+                        vero laborum perspiciatis expedita quae vel eum nesciunt ab. Quos sit fuga ad.
+                    </div>
+                </div>
+
+                <div class="skills_box">
+                    <svg class="icon icon-database">
+                        <use xlink:href="sprite.svg#icon-database"></use>
+                    </svg>
+                    <div class="skills_title">
+                        Back-end
+                    </div>
+                    <div class="skills_desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic excepturi distinctio eaque tempora est quis, quaerat dolores
+                        vero laborum perspiciatis expedita quae vel eum nesciunt ab. Quos sit fuga ad.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="portfolio p" id="portfolio">
+            <div class="portfolio_content">
+                <div class="portfolio_header">
+                    <h2 class="portfolio_heading">Portfolio</h2>
+                    <p class="portfolio_text">Wejdz na
+                        <a class="yellow portfolio_link" href="https://github.com/karoljaw" target="_blank">github</a> żeby zobaczyć dużo więcej moich prac</p>
+                </div>
+                <div class="project">
+                    <div class="project_row animation-element">
+                        <div class="project_description">
+                            <h3 class="project_title">
+                                Chellange 23
+                            </h3>
+                            <p class="project_text">
+                                Projekt wykonany na podstawie szablonu, z uzyciem html css i jquery.
+                            </p>
+                            <p class="project_skills">
+                                <strong>Skills</strong>: html, css, javascript</p>
+                            <button class="project_btn btn btn--blue">kod</button>
+                            <button class="project_btn btn btn--blue">live</button>
+                        </div>
+                        <div class="project_image">
+                            <img src="img/weekly30.png" class="image">
+                        </div>
+
+                    </div>
+                    <div class="project_row animation-element">
+                        <div class="project_image">
+                            <img src="img/weekly4.png" class="image">
+                        </div>
+                        <div class="project_description project_description--even ">
+                            <h3 class="project_title">
+                                Chellange 4
+                            </h3>
+                            <p class="project_text">
+                                Projekt wykonany na podstawie szablonu, z uzyciem html css i jquery.
+                            </p>
+                            <p class="project_skills">
+                                <strong>Skills</strong>: html, css, javascript</p>
+                            <button class="project_btn btn btn--blue">kod</button>
+                            <button class="project_btn btn btn--blue">live</button>
+                        </div>
+                    </div>
+                    <div class="project_row animation-element">
+                        <div class="project_description">
+                            <h3 class="project_title">
+                                Chellange 5
+                            </h3>
+                            <p class="project_text">
+                                Projekt wykonany na podstawie szablonu, z uzyciem html css i jquery.
+                            </p>
+                            <p class="project_skills">
+                                <strong>Skills</strong>: html, css, javascript</p>
+                            <button class="project_btn btn btn--blue">kod</button>
+                            <button class="project_btn btn btn--blue">live</button>
+                        </div>
+                        <div class="project_image">
+                            <img src="img/weekly5.png" class="image">
+                        </div>
+
+                    </div>
+                    <div class="project_row animation-element">
+                        <div class="project_image">
+                            <img src="img/harmonia.png" class="image">
+                        </div>
+                        <div class="project_description project_description--even">
+                            <h3 class="project_title">
+                                Harmonia
+                            </h3>
+                            <p class="project_text">
+                                Projekt wykonany na podstawie szablonu, z uzyciem html css i jquery.
+                            </p>
+                            <p class="project_skills">
+                                <strong>Skills</strong>: html, css, javascript</p>
+                            <button class="project_btn btn btn--blue">kod</button>
+                            <button class="project_btn btn btn--blue">live</button>
+                        </div>
+                    </div>
+                    <div class="project_row animation-element">
+                        <div class="project_description">
+                            <h3 class="project_title">
+                                Chellange 2
+                            </h3>
+                            <p class="project_text">
+                                Projekt wykonany na podstawie szablonu, z uzyciem html css (bootstrap) i jquery.
+                            </p>
+                            <p class="project_skills">
+                                <strong>Skills</strong>: html, css, javascript</p>
+                            <button class="project_btn btn btn--blue">kod</button>
+                            <button class="project_btn btn btn--blue">live</button>
+                        </div>
+                        <div class="project_image">
+                            <img src="img/weekly2.png" class="image">
+                        </div>
+
+                    </div>
+                    <div class="project_row animation-element">
+                        <div class="project_image">
+                            <img src="img/weatherapp.png" class="image">
+                        </div>
+                        <div class="project_description project_description--even">
+                            <h3 class="project_title">
+                                Weather App
+                            </h3>
+                            <p class="project_text">
+                                Projekt wykonany z uzyciem react.js i fatch apigggggggggggggggggggggggggggggggg.
+                            </p>
+                            <p class="project_skills">
+                                <strong>Skills</strong>: html, css, javascript</p>
+                            <button class="project_btn btn btn--blue">kod</button>
+                            <button class="project_btn btn btn--blue">live</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <h2 class="contact_title">Zobacz dużo więcej moich projektów na githubie</h2>
+            <button class="btn contact_btn">github</button>
+        </section>
+    </main>
+    <footer id="contact" class="footer p">
+         <p class="footer_text">&copy 2018 Karol Jaworek | Wszystkie prawa zastrzeżone.</p>
+        <div>
+            <svg class="icon_footer icon-github">
+                <use xlink:href="sprite.svg#icon-github"></use>
+            </svg>
+            <svg class="icon_footer icon-facebook">
+                <use xlink:href="sprite.svg#icon-facebook-with-circle"></use>
+            </svg>
+            <svg class="icon_footer icon-linkedin2">
+                <use xlink:href="sprite.svg#icon-linkedin-with-circle"></use>
+            </svg>
+        </div>
+        <!-- <div class="contact">
+            <button class="btn contact_btn">kontakt</button>
+        </div> -->
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
